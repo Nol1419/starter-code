@@ -11,11 +11,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg">
 
   <!-- link css/style.css -->
-  <link rel="stylesheet" href="./assets/css/destination.css">
+  <link rel="stylesheet" href="./assets/css/crew.css">
   
 </head>
 <body>
-
   <header class="header__body">
     <figure class="content_left">
       <figcaption>
@@ -29,7 +28,7 @@
       <ul class="navBars__list">
         <li class="navBars__list-item"><a href="./index.html">00 Home</a></li>
         <li class="navBars__list-item"><a href="./destination.html">01 Destination</a></li>
-        <li class="navBars__list-item"><a href="#">02 Crew</a></li>
+        <li class="navBars__list-item"><a href="./crew-commander.html">02 Crew</a></li>
         <li class="navBars__list-item"><a href="#">03 Technology</a></li>
       </ul>
     </nav>
@@ -37,26 +36,48 @@
   </header>
 
   <main class="content__body">
-    <article class="content__main-article">
-      <div class="article-section__left-title">
-        <h2>02 MEET YOUR CREW</h2>
+    <div class="article-section__left-title">
+      <h2>02 MEET YOUR CREW</h2>
 
-      </div>
-      
+    </div>
+
+    <article class="content__main-article"> 
       <section class="article-section">
-        Commander
-        Douglas Hurley
+        <div class="section__left">
+          <p class="sub_title">Commander</p>
 
-        Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
-        and former NASA astronaut. He launched into space for the third time as 
-        commander of Crew Dragon Demo-2.
+          <h3 class="name">Douglas Hurley</h3>
+  
+          <p class="paragraph">
+            Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+            and former NASA astronaut. He launched into space for the third time as 
+            commander of Crew Dragon Demo-2.
+          </p>
+
+        </div>
+
+        <figure class="section__right">
+          <figcaption class="content_img">
+            <img src="./assets/crew/image-douglas-hurley.png" alt="img__cssMentor" class="img" style="width: 90%;">
+
+          </figcaption>
+
+        </figure>
+
       </section>
+
+      <div class="carrusel">
+        <button type="button" class="btn btn__carrusel" id="commander"></button>
+        <button type="button" class="btn btn__carrusel" id="engineer"></button>
+        <button type="button" class="btn btn__carrusel" id="pilot"></button>
+        <button type="button" class="btn btn__carrusel" id="specialist"></button>
+      </div>
 
     </article>
 
   </main>
-  
 
+  <script src="./assets/js/crewChange.js"></script>
   
 </body>
 </html>

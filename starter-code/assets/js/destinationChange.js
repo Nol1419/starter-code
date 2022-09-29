@@ -15,8 +15,8 @@ try{
     
 
     //change img
-    const contentImg = document.getElementById('img');
     const figcaptionImg = document.getElementById('content_img');
+    const contentImg = document.getElementById('img');
     const imgNew = document.getElementById('img')
 
     // change contents
@@ -62,13 +62,14 @@ try{
                     <div class="footer__rigth">
                         <h4>Est. travel time</h4>
                         <p>3 days</p>
-                        <p>https://mohammedduke.github.io/Space-tourism-multi-page-website/destination-moon.html</p>
+                        <!--p>https://mohammedduke.github.io/Space-tourism-multi-page-website/destination-moon.html</p-->
                         
                         
                     </div>
                 `
 
-                figcaptionImg.replaceChild(img, contentImg)
+                figcaptionImg.replaceChild(imgNew, contentImg)
+
             } catch (e) {
                 console.log(e)
             } 
@@ -113,7 +114,7 @@ try{
                         </div>
                     `
     
-                figcaptionImg.replaceChild(img, contentImg)
+                figcaptionImg.replaceChild(imgNew, contentImg)
             }catch(e){
                 console.log(e)
             }
@@ -158,7 +159,7 @@ try{
                         </div>
                     `
 
-                figcaptionImg.replaceChild(img, contentImg)
+                figcaptionImg.replaceChild(imgNew, contentImg)
 
             } catch (e) {
                 console.log(e)
@@ -202,7 +203,7 @@ try{
                         </div>
                     `;
 
-                figcaptionImg.replaceChild(img, contentImg)
+                figcaptionImg.replaceChild(imgNew, contentImg)
         
             } catch (e) {
                 console.log(e)
